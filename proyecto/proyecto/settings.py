@@ -37,12 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'comentarios',
     'posts',
-=======
     'home',
->>>>>>> bf3f22f9ff375dcd015e03f97179a5aac3666eba
+
 ]
 
 MIDDLEWARE_CLASSES = [
