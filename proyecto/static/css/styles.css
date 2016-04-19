@@ -1,0 +1,164 @@
+/* estos estilos son del menu que estan en el aside */
+body{
+	height: 500px!important;
+	width: 100%;
+
+
+}
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+.font{
+	font-family: 'Lato', sans-serif;
+}
+.main-container{
+	display: flex;
+}
+.main-container .map{
+	width: 75vw;
+	background-color: lightgray;
+	height: 100vh;
+}
+.main-container .map .header{
+	height: 10vh;
+}
+.main-container .map #map{
+	height: 90vh;
+}
+.main-container footer{
+	position: fixed;
+	bottom: 35px;
+	left: 12px;
+}
+.main-container footer img{
+	width: 100px;
+	height: auto;
+}
+.aside{
+	border-left: 2px solid #CCCCCC;
+	width: 25vw;
+	background-color: #1255ad;
+	height: 100vh;
+	overflow-y: auto;
+}
+.aside .myUser-box{
+	text-align: center;
+	background: url('./assets/blue-bg.jpg');
+	background-clip: content-box;
+	background-size: cover;
+	height: 12vh;
+	width: 25vw;
+	position: fixed;
+	top: 0px;
+	z-index: +1;
+}
+.aside .myUser-box .myUser-description{
+	margin-top: 3px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 10px;
+}
+.aside .myUser-box .myUser-img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-top: 1vh;
+	box-shadow: 0px 0px 3px #131313;
+}
+
+.aside .users-opinions{
+	margin-top: 12vh;
+	margin-bottom: 20vh;
+	padding: 5px;
+	background-color: #FFFFFF;
+	background-blend-mode: lighten;
+	display: block;
+}
+.aside .users-opinions hr{
+	border: 1px solid #EEEEEE;
+}
+
+.aside .users-opinions .user-head{
+	display: flex;
+	justify-content: space-between;
+}
+.aside .users-opinions .user-head .user-name {
+	font-size: 16px;
+	font-weight: 900;
+	color: #222222;
+}
+.aside .users-opinions .user-body{
+	display: flex;
+	justify-content: space-between;
+}
+.aside .users-opinions .user-body .user-picture img {
+	width: 45px;
+	height: 45px;
+}
+.aside .users-opinions .user-body .users-experiences{
+	width: 80%;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3e3e3e;
+	padding: 0 6px;
+}
+.aside .users-opinions .user-body .users-experiences .users-nationality{
+	font-size: 12px;
+	color: #333333;
+	font-weight: 100;
+}
+.aside .users-opinions .user-body .users-placeGrade{
+	color: rgb(221, 192, 42);
+	font-size: 26px;
+	font-weight: 900;
+	width: 10%;
+}
+.aside .users-opinions .user-foot{
+	display: flex;
+	justify-content: flex-end;
+}
+.aside .users-opinions .user-foot .user-more{
+	width: 20%;
+	text-align: center;
+}
+
+.aside .ad-block{
+	position: fixed;
+	bottom: 0px;
+	height: 20vh;
+	width: 25vw;
+	background-color: #FFFFFF;
+}
+
+user{
+	border-left: 2px solid #CCCCCC;
+	width: 25vw;
+	background-color: #1255ad;
+	height: 100vh;
+	overflow-y: auto;
+}
+user .user-box{
+	text-align: center;
+	background: url('./assets/blue-bg.jpg');
+	background-clip: content-box;
+	background-size: cover;
+	height: 12vh;
+	width: 25vw;
+	position: fixed;
+	top: 0px;
+	z-index: +1;
+}
+
+user .user-box .user-header .user-img img{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 25vw;
+	height: auto;
+}
+.mapa{
+	border-style: ridge;
+}
