@@ -1,0 +1,20 @@
+var example = '{ "comments" : [' +
+'{ "country": "México",
+   "state": "Chihuahua",
+   "city": "Ciudad Juarez",
+   "grade": 5,
+   "comment": "Sí me gustó mucho",
+   "user-id": 1}' +
+'{ "country": "México",
+   "state": "Chihuahua",
+   "city": "Chihahua",
+   "grade": 2,
+   "comment": "No me gustó nada",
+   "user-id": 1}' +
+'{ "country": "México",
+   "state": "Guanajuato",
+   "city": "León",
+   "grade": 3,
+   "comment": "Más o menos",
+   "user-id": 1}
+      ]}';

@@ -1,0 +1,21 @@
+html
+  head
+    title Placy: The world is safe
+    link(href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(type="text/css" rel="stylesheet" href="./tools/materialize/css/materialize.min.css"  media="screen,projection")
+    link(href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" type="text/css" href="./styles.css")
+  body
+    div(class="main-container" style="margin-top:-10vh;")
+      div(class="map")
+        div(class="header")
+        div(class="add-block")
+          include ./add/template.jade
+          include ./header/template.jade
+        include ./map/template.jade
+      include ./footer/template.jade
+      div(class="user" style="margin-top: 10vh;")
+        include ./user/template.jade
+    script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(type="text/javascript" src="./tools/materialize/js/materialize.min.js")
+    script(type="text/javascript" src="./app/search.js")

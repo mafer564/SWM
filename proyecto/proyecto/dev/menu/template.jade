@@ -1,0 +1,11 @@
+aside
+  .myUser-box
+    .myUser-img
+      img(src="./assets/profile.jpg")
+  .users-opinions
+    each comment in [1,2,3,4,5,6,7,8,9,10]
+      include ../comment/template.jade
+  .ad-block
+    .ad
+      img(src="./assets/anuncio.jpg")
+      p HOTEL EN MEXICO

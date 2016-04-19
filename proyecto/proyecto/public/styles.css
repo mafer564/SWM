@@ -1,0 +1,222 @@
+/* estos estilos son del menu que estan en el aside */
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+.font{
+	font-family: 'Lato', sans-serif;
+}
+.main-container{
+	display: flex;
+}
+.main-container #map img{
+	width: 75vw;
+	height: auto;
+	position: fixed;
+	top: 10vh;
+}
+.main-container .map{
+	width: 75vw;
+	background-color: lightgray;
+	height: 100vh;
+}
+.main-container .map .header{
+	height: 10vh;
+}
+.main-container .map #map{
+	height: 90vh;
+}
+.main-container footer{
+	position: fixed;
+	bottom: 35px;
+	left: 12px;
+}
+.main-container footer img{
+	width: 100px;
+	height: auto;
+}
+.aside{
+	border-left: 2px solid #CCCCCC;
+	width: 25vw;
+	background-color: #1255ad;
+	height: 100vh;
+	overflow-y: auto;
+}
+.aside .myUser-box{
+	text-align: center;
+	background: url('./assets/blue-bg.jpg');
+	background-clip: content-box;
+	background-size: cover;
+	height: 12vh;
+	width: 25vw;
+	position: fixed;
+	top: 0px;
+	z-index: +1;
+}
+.aside .myUser-box .myUser-description{
+	margin-top: 3px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 10px;
+}
+.aside .myUser-box .myUser-img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-top: 1vh;
+	box-shadow: 0px 0px 3px #131313;
+}
+
+.aside .users-opinions{
+	margin-top: 12vh;
+	margin-bottom: 20vh;
+	padding: 5px;
+	background-color: #FFFFFF;
+	background-blend-mode: lighten;
+	display: block;
+}
+.aside .users-opinions hr{
+	border: 1px solid #EEEEEE;
+}
+
+.users-opinions .user-head{
+	display: flex;
+	justify-content: space-between;
+}
+.users-opinions .user-head .user-name {
+	font-size: 16px;
+	font-weight: 900;
+	color: #222222;
+}
+.users-opinions .user-body{
+	display: flex;
+	justify-content: space-between;
+}
+.users-opinions .user-body .user-picture img {
+	width: 45px;
+	height: 45px;
+}
+.users-opinions .user-body .users-experiences{
+	width: 80%;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3e3e3e;
+	padding: 0 6px;
+}
+.users-opinions .user-body .users-experiences .users-nationality{
+	font-size: 12px;
+	color: #333333;
+	font-weight: 100;
+}
+.users-opinions .user-body .users-placeGrade{
+	color: rgb(221, 192, 42);
+	font-size: 26px;
+	font-weight: 900;
+	width: 10%;
+}
+.users-opinions .user-foot{
+	display: flex;
+	justify-content: flex-end;
+}
+.users-opinions .user-foot .user-more{
+	width: 20%;
+	text-align: center;
+}
+
+.aside .ad-block{
+	position: fixed;
+	bottom: 0px;
+	height: 20vh;
+	width: 25vw;
+	background-color: #FFFFFF;
+}
+.aside .ad-block img{
+	width: 100%;
+	height: auto;
+}
+.aside .ad-block p{
+	margin-top: -200px;
+	color: red;
+	text-align: center;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.user {
+	border-left: 2px solid #CCCCCC;
+	width: 25vw;
+	background-color: #FFFFFF;
+	height: 100vh;
+	overflow-y: auto;
+}
+user{
+	border-left: 2px solid #CCCCCC;
+	width: 25vw;
+	background-color: #FFFFFF;
+	height: 100vh;
+	overflow-y: auto;
+}
+user .user-box{
+	text-align: center;
+	background: url('./assets/blue-bg.jpg');
+	background-clip: content-box;
+	background-size: cover;
+	height: 25vw;
+	width: 25vw;
+	margin-top: -22px;
+}
+
+user .user-box .user-header .user-img img{
+	max-width: 25vw;
+	height: auto;
+	padding: 1vw;
+	border-radius: 10vw;
+}
+user .user-box .user-header .users-info .users-name{
+	color: #000000;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 900;
+	padding: 3px 0;
+}
+
+user .user-box .user-header .users-info .users-nationality{
+	color: #323232;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+user .user-box .user-body .users-opinions{
+	margin-top: 12vh;
+	margin-bottom: 20vh;
+	padding: 5px;
+	background-color: #FFFFFF;
+	background-blend-mode: lighten;
+	display: block;
+}
+
+user .user-box .user-body .users-opinions hr{
+	border: 1px solid #EEEEEE;
+}
+
+.add{
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 20px;
+	z-index: 999;
+}
+
+.add button{
+	text-align: center;
+}
